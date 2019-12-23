@@ -24,4 +24,9 @@ function iLoveTheBeatles(n) {
     array.push(`I love the Beatles!`)
   } while (n.length > i);
   return array
+  function incrementNumber(n) {
+    i = i + 1;
+    return i;
+  }
+  return array
 }
