@@ -22,12 +22,8 @@ function iLoveTheBeatles(n) {
   let i = 0;
   do {
     array.push(`I love the Beatles!`)
-  } while (n.length > i);
-  return array
-  function incrementNumber(n) {
-    i = i + 1;
-    i++
-    return i;
-  }
+    n++
+  } 
+  while (n < 15);
   return array
 }
