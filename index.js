@@ -26,6 +26,7 @@ function iLoveTheBeatles(n) {
   return array
   function incrementNumber(n) {
     i = i + 1;
+    i++
     return i;
   }
   return array
